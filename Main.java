@@ -4,17 +4,17 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("=== UniAccounts: Work 1 (Core) ===\n");
+        System.out.println("=== UniAccounts: TP GL N:01 (Core) ===\n");
 
         // 1. Builder: بناء حساب طالب معقد
         StudentAccount student1 = new StudentAccount.StudentAccountBuilder(
-                "ID-2024001", "Ahmed Ali", "ahmed@univ.dz"
+                "ID-2024003", "Zahra", "Zahra@univ.dz"
         )
-        .setPhone("0555123456")
-        .setLevel("M1")
+        .setPhone("0755123480")
+        .setLevel("L3")
         .setMajor("Computer Science")
         .setScholarship(true)
-        .setCourses(Arrays.asList("Java", "UML", "Databases"))
+        .setCourses(Arrays.asList("ihm", "UML", "Databases"))
         .build();
 
         System.out.println("1. [Builder] Account Created:");
